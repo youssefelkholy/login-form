@@ -1,0 +1,116 @@
+body
+{
+    width: 100%;
+    height: 500px;
+    background-color:#58007d;
+    background-image: url(../images/background-image.png);
+}
+.logo
+{
+    
+    color: #ffffff;   
+    height:400px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 100px;
+    
+}
+.logo p
+{
+    padding-left: 52px;
+    padding-top: 20px;
+}
+.login
+{
+    
+    color: #000000;
+    min-height: 100px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    padding-top: 70px;
+   
+}
+.form
+{
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.form h2{font-size: 20px;}
+.form .inp
+{
+    border: 2px solid #eee;
+    color: #58007d;
+    display: block;
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.form .inp:active
+{
+    border-color: #58007d;
+}
+.form .lab
+{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    padding-left: 23px;
+    margin-top: 5px;
+}
+.form .btn
+{
+    width: 270px;
+    margin-left: 18px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background: #58007d;
+    border: #58007d;
+    display:inline-block;
+    font-weight: bold;
+    font-family: sans-serif; 
+}
+.form .btn:hover
+{
+    box-shadow:0 0 8px #58007d;  
+    transition:ease-in-out .2s;
+}
+input[type=checkbox] + label
+{
+    display: block;
+    margin: 0.2em;
+    cursor: pointer;
+    padding: 0.2em;
+}
+input[type=checkbox]
+{
+    display: none;
+}
+input[type=checkbox] + label:before {
+    content: "\2714";
+    border: 0.1em solid #000000;
+    border-radius: 0.2em;
+    display: inline-block;
+    width: 20px;
+    height:20px;
+    padding-left: 0.2em;
+    padding-bottom: 0.3em;
+    margin-right: 0.2em;
+    margin-left: 15px;
+    vertical-align: bottom;
+    color:transparent;
+    transition: 0.2s;
+}
+input[type=checkbox]:checked + label::before
+{
+    background: #58007d;
+    color: #ffffff;
+    border-color: #58007d;
+}
